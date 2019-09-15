@@ -1,0 +1,4 @@
+g++ -c -o main.o main.cpp
+g++ -c -o miniwin.o miniwin.cpp
+g++ -o test2 *.o  -pthread -lX11
+
